@@ -1,0 +1,15 @@
+HTTrack3.49-2 launched on Sat, 25 Dec 2021 17:23:51 at https://safenote.co/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://safenote.co/ -O "/home/sankaramoorthy/websites/secmsg" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:24:20	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://safenote.co/)
+17:24:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://safenote.co/js/app.js
+17:24:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+17:24:39	Warning: 	HTML file (40473 bytes) retransferred due to lack of cache: https://safenote.co/private-message
+
+HTTrack Website Copier/3.49-2 mirror complete in 49 seconds : 48 links scanned, 47 files written (3560631 bytes overall) [1510796 bytes received at 30832 bytes/sec], 3002347 bytes transferred using HTTP compression in 25 files, ratio 30%, 3.0 requests per connection
+(1 errors, 3 warnings, 0 messages)
